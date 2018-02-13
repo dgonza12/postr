@@ -1,0 +1,5 @@
+<h1>POST</h1>
+<h2>{{(post | async)?.title }}</h2>
+<img [src]="(post | async)?.image">
+<p>{{(post | async)?.content }}</p>
+<a [href]="('/user/'+(post | async)?.user)">visit author</a>

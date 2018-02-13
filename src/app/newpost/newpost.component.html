@@ -1,0 +1,4 @@
+<input type="text" [(ngModel)]="title" name="title" placeholder="New Post Title">
+<textarea [(ngModel)]="content" name="content" placeholder="Body of post.."></textarea>
+<input type="text" [(ngModel)]="image" name="image" placeholder="">
+<input type="submit" value="Add a post" (click)="addPost()">

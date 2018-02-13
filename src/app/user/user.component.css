@@ -1,0 +1,23 @@
+.profile{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.profile img{
+    border-radius: 50%;
+    max-width: 50%;
+    height: auto;
+    display: block;
+}
+
+.post{
+    width: 100%;
+    overflow: hidden;
+}
+
+.post img{
+    height: 200px;
+    width: auto;
+    max-width: 50%;
+}

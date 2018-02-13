@@ -1,0 +1,12 @@
+<h1>POSTS</h1>
+<card class="grid-container" *ngFor="let post of posts | async">
+  <div class="container">
+    <h1><a [href]="('/post/'+post.id)"><strong>{{ post.data.title}}</strong></a></h1>
+
+    <img [src]="post.data.image">
+
+    {{post.data.content}}
+
+    <a [href]="('/user/'+post.data.user)">by {{post.data.user}}</a>
+  </div>
+</card>
