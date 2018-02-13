@@ -1,0 +1,35 @@
+.navigation{
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    display: flex;
+    width: 100%;
+}
+
+.logIn{
+    margin-left: auto;
+}
+
+.logOut{
+    margin-left: auto;
+}
+
+.nav-button:hover{
+    background-color: white;
+    color: black
+}
+
+.input-form{
+    width:100%;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.input-form input{
+    width: 80%;
+}
+
+textarea{
+    height: 250px;
+    width: 80%;
+}
