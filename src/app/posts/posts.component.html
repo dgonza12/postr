@@ -1,5 +1,5 @@
 <h1>POSTS</h1>
-<card class="grid-container" *ngFor="let post of posts | async">
+<div class="grid-container" *ngFor="let post of posts | async">
   <div class="container">
     <h1><a [href]="('/post/'+post.id)"><strong>{{ post.data.title}}</strong></a></h1>
 
@@ -9,4 +9,4 @@
 
     <a [href]="('/user/'+post.data.user)">by {{post.data.user}}</a>
   </div>
-</card>
+</div>
