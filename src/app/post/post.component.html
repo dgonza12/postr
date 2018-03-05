@@ -1,5 +1,16 @@
-<h1>POST</h1>
-<h2>{{(post | async)?.title }}</h2>
-<img [src]="(post | async)?.image">
-<p>{{(post | async)?.content }}</p>
-<a [href]="('/user/'+(post | async)?.user)">visit author</a>
+<div class="post">
+
+    <h2 class="post-title">{{(post | async)?.title }}</h2>
+
+    <div class="img-holder">
+        <img [src]="(post | async)?.image">
+    </div>
+
+    <div class="text">
+        <p>{{(post | async)?.content }}</p>
+    </div>
+
+    <a [href]="('/user/'+(post | async)?.user)">Visit author</a>
+
+</div>
+

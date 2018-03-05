@@ -26,6 +26,7 @@ import { NewpostComponent } from './newpost/newpost.component';
 // Services
 import { PostServiceService} from './post-service.service';
 import { UserServiceService} from './user-service.service';
+import { NewuserComponent } from './newuser/newuser.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { UserServiceService} from './user-service.service';
     PostsComponent,
     PostComponent,
     UserComponent,
-    NewpostComponent
+    NewpostComponent,
+    NewuserComponent
   ],
   imports: [
     FormsModule,
@@ -54,7 +56,9 @@ import { UserServiceService} from './user-service.service';
       },
       {path: 'newpost',
        component: NewpostComponent
-      }
+      },
+      {path: 'newuser',
+      component: NewuserComponent}
     ])
   ],
   providers: [PostServiceService, UserServiceService],

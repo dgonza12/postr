@@ -1,0 +1,29 @@
+.post{
+    padding-left: 20%;
+    padding-right: 20%;
+    width: 80%;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+
+.post-title{
+    text-align: center;
+}
+
+.img-holder{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.img-holder img{
+    height: 100%;
+    width: auto;
+}
+
+.text{
+    min-height: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
+    width: 80%;
+}

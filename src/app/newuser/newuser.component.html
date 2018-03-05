@@ -1,0 +1,10 @@
+<h1>Create Account:</h1>
+<input type="text" [(ngModel)]="username" name="username" placeholder="Username">
+<br>
+<textarea [(ngModel)]="about" name="about" placeholder="About"></textarea>
+<br>
+<input type="text" [(ngModel)]="image" name="image" placeholder="Profile Picture Url">
+<br>
+<input type="text" [(ngModel)]="password" name="password" placeholder="password">
+<br>
+<input type="submit" value="Create Account" (click)="addUser()">

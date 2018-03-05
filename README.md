@@ -6,6 +6,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Current Pages:
+[posts](localhost:4200/posts)
+[new user](localhost:4200/newuser)
+[post page example](http://localhost:4200/post/J850z4vdPTzUy9fDybk3)
+[user page example](http://localhost:4200/user/danny)
 ## Resources!
 
 [Firestore & Angular tutorial](https://coursetro.com/posts/code/94/Use-Angular-with-Google's-Cloud-Firestore---Tutorial)
