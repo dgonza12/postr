@@ -4,6 +4,11 @@
     <div>
         <a routerLink="posts" class="nav-button"> Posts </a>
     </div>
+
+    <div *ngIf="!(isLoggedIn)">
+        <a routerLink="newuser" class="nav-button"> Create Account</a>
+    </div>
+
     <div *ngIf="isLoggedIn" (click)="togglePostMenu()" class="nav-button" >New Post</div>
 
     <div *ngIf="isLoggedIn" (click)="LogOut()" class="nav-button logOut"> Log out</div>
